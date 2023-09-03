@@ -1,0 +1,14 @@
+{
+  "name": "Protfolio Website",
+  "version": "2.0.0",
+  "description": "Responsive_Protfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Sarthak",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
