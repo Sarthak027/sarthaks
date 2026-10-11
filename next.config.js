@@ -1,9 +1,9 @@
-/** @type {import('next').NextConfig} */
+﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: [],
+    domains: ['cdn.simpleicons.org', 'cdn.jsdelivr.net', 'icon.icepanel.io', 'symbols.getvecta.com', 'www.svgrepo.com'],
   },
   poweredByHeader: false,
 }

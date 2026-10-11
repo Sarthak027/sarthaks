@@ -20,13 +20,14 @@ export const technologies = [
 
 export const currentWork = {
   title: 'Current Focus',
+  command: '$ current-focus --list',
   items: [
-    'AWS-to-Azure DevOps CI/CD migration',
-    'Terraform pipeline development and maintenance',
-    'Reusable Azure DevOps YAML templates',
-    'Bash automation across repositories',
-    'AWS authentication, permissions, and remote Terraform state',
-    'KICS security scanning integration',
+    { text: 'Platform Engineering — Building a platform engineering project focused on infrastructure automation, developer workflows, and reliable deployment processes', completed: false },
+    { text: 'Claude & AI-Assisted Engineering — Deepening my understanding of Claude and learning to use it effectively for engineering workflows and development', completed: false },
+    { text: 'Azure Certifications — Preparing for the AZ-104 (Azure Administrator Associate) and AZ-400 (DevOps Engineer Expert) certifications', completed: false },
+    { text: 'AI/ML, MLOps & AIOps — Learning AI and machine learning fundamentals, MLOps practices, and AIOps concepts for my upcoming platform engineering project', completed: false },
+    { text: 'ServiceNow — Learning ServiceNow and understanding how it fits into enterprise IT service management and platform workflows', completed: false },
+    { text: 'CI/CD Migration — Completed the migration from AWS CodeBuild to Azure DevOps Pipelines', completed: true },
   ],
 }
 

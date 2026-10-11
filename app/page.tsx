@@ -2,7 +2,7 @@
 import Hero from './components/Hero'
 import SystemStatus from './components/SystemStatus'
 import ExperiencePreview from './components/experience/ExperiencePreview'
-import Projects from './components/Projects'
+// import Projects from './components/Projects'
 import SkillsSection from './components/skills/SkillsSection'
 import CertificationsSection from './components/certifications/CertificationsSection'
 import EducationSection from './components/education/EducationSection'
@@ -18,7 +18,7 @@ export default function Home() {
       <Hero />
       <SystemStatus />
       <ExperiencePreview />
-      <Projects />
+      {/* <Projects /> */}
       <SkillsSection />
       <CertificationsSection />
       <EducationSection />

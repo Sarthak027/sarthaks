@@ -19,7 +19,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: '#experience', label: 'Experience' },
-    { href: '#work', label: 'Projects' },
+    // { href: '#work', label: 'Projects' },
     { href: '#skills', label: 'Skills' },
     { href: '#certifications', label: 'Certifications' },
     { href: '#education', label: 'Education' },
@@ -44,7 +44,7 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            SP
+            {siteConfig.name}
           </motion.a>
 
           <div className="hidden md:flex items-center gap-6">

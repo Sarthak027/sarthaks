@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Github, ArrowRight } from 'lucide-react'
-import { siteConfig, technologies } from '../data/content'
-import TechBadge from './TechBadge'
+import { siteConfig } from '../data/content'
 
 export default function Hero() {
   return (
@@ -46,7 +45,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
+            className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <a href="#experience" className="btn-primary">
               Explore My Work
@@ -61,24 +60,6 @@ export default function Hero() {
               <Github size={20} />
               GitHub
             </a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6 }}
-            className="flex flex-wrap gap-4 justify-center"
-          >
-            {technologies.map((tech, index) => (
-              <motion.div
-                key={tech.name}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.7 + index * 0.1 }}
-              >
-                <TechBadge name={tech.name} tooltip={tech.tooltip} />
-              </motion.div>
-            ))}
           </motion.div>
         </motion.div>
       </div>
