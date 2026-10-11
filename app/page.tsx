@@ -1,7 +1,7 @@
 ﻿import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import SystemStatus from './components/SystemStatus'
-import ExperienceSection from './components/experience/ExperienceSection'
+import ExperiencePreview from './components/experience/ExperiencePreview'
 import Projects from './components/Projects'
 import SkillsSection from './components/skills/SkillsSection'
 import CertificationsSection from './components/certifications/CertificationsSection'
@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SystemStatus />
-      <ExperienceSection />
+      <ExperiencePreview />
       <Projects />
       <SkillsSection />
       <CertificationsSection />
@@ -29,3 +29,4 @@ export default function Home() {
     </main>
   )
 }
+

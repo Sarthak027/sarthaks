@@ -49,10 +49,9 @@ I work on AWS-to-Azure DevOps CI/CD migration, Terraform automation, Infrastruct
 Focus areas: Cloud Engineering, DevOps, IaC, CI/CD, DevSecOps`,
   
   experience: `01. Accenture - Software Engineer (May 2026 - Present)
-02. Bluestock - SDE Intern (Oct 2024 - Nov 2024)
-03. Hacktoberfest - Open Source Developer (Oct 2024)
-04. GirlScript Summer of Code - Contributor (May 2024 - Jul 2024)
-05. GeeksforGeeks - Technical Content Writer (Dec 2022 - Dec 2023)
+02. Hacktoberfest - Open Source Developer (Oct 2024)
+03. GirlScript Summer of Code - Contributor (May 2024 - Jul 2024)
+04. GeeksforGeeks - Technical Content Writer (Dec 2022 - Dec 2023)
 
 Type 'experience <number>' for details`,
   
