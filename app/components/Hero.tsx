@@ -19,27 +19,27 @@ export default function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-sm md:text-base font-mono text-gray-600 mb-6 tracking-wider"
+            className="text-2xl md:text-3xl font-bold mb-8"
           >
-            DEVOPS / CLOUD / AUTOMATION
+            Hey, I&apos;m Sarthak
           </motion.p>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
           >
-            {siteConfig.tagline}
+            I automate things so humans don&apos;t have to do them twice.
           </motion.h1>
 
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto"
+            className="text-xl md:text-2xl text-gray-600 mb-12"
           >
-            {siteConfig.description}
+            (And because &quot;it works on my machine&quot; isn&apos;t a deployment strategy.)
           </motion.p>
 
           <motion.div

@@ -66,23 +66,6 @@ export default function ExperienceDetailPage({ params }: { params: { id: string 
               </div>
             </div>
           )}
-          {experience.id === 'accenture' && (
-            <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-6">Migration Workflow</h2>
-              <div className="border-2 border-purple-200 rounded-xl p-8 bg-purple-50/30">
-                <div className="font-mono text-center space-y-4">
-                  <div className="p-4 bg-white rounded-lg border border-purple-200"><div className="font-bold text-lg mb-2">AWS CodeBuild</div><div className="text-sm text-gray-600">Terraform Workflows</div></div>
-                  <div className="text-3xl text-purple-600">↓</div>
-                  <div className="p-4 bg-white rounded-lg border border-purple-200"><div className="font-bold text-lg mb-2">Azure DevOps Pipelines</div><div className="text-sm text-gray-600">YAML Templates & Automation</div></div>
-                  <div className="text-3xl text-purple-600">↓</div>
-                  <div className="p-4 bg-white rounded-lg border border-purple-200"><div className="font-bold text-lg mb-2">Terraform Execution</div><div className="text-sm text-gray-600">Init · Validate · Plan · Apply · Destroy</div></div>
-                  <div className="text-3xl text-purple-600">↓</div>
-                  <div className="p-4 bg-white rounded-lg border border-purple-200"><div className="font-bold text-lg mb-2">AWS Infrastructure</div><div className="text-sm text-gray-600">IAM · OIDC · S3 State · DynamoDB</div></div>
-                  <div className="mt-6 pt-6 border-t border-purple-200"><div className="text-sm text-gray-600">Supporting: Bash Automation · Bitbucket · KICS Security Scanning</div></div>
-                </div>
-              </div>
-            </div>
-          )}
           <div className="flex flex-col sm:flex-row gap-4 justify-between items-center pt-12 border-t">
             {previousExp ? (<Link href={`/experience/${previousExp.id}`} className="flex items-center gap-2 text-gray-700 hover:text-primary transition-colors"><ArrowLeft size={20} /><span>Previous: {previousExp.company}</span></Link>) : (<div></div>)}
             {nextExp ? (<Link href={`/experience/${nextExp.id}`} className="flex items-center gap-2 text-gray-700 hover:text-primary transition-colors"><span>Next: {nextExp.company}</span><ArrowRight size={20} /></Link>) : (<div></div>)}

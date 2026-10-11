@@ -26,7 +26,7 @@ export default function ExperiencePreview() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-bold mb-6 text-center"
         >
-          Where I&apos;ve Contributed
+          My Experience
         </motion.h2>
 
         <motion.p

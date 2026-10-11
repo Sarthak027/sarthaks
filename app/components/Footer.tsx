@@ -19,10 +19,6 @@ export default function Footer() {
             <span>by Sarthak Prasad Parida</span>
           </div>
 
-          <div className="flex items-center gap-6 text-sm text-gray-600">
-            <span>Next.js • TypeScript • Tailwind CSS</span>
-          </div>
-
           <div className="text-sm text-gray-600">
             © {new Date().getFullYear()} All rights reserved
           </div>

@@ -1,7 +1,7 @@
 ﻿'use client'
 
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Globe } from 'lucide-react'
+import { Github, Linkedin } from 'lucide-react'
 import { siteConfig } from '../data/content'
 
 export default function Contact() {
@@ -58,16 +58,6 @@ export default function Contact() {
           >
             <Linkedin size={24} />
             <span>LinkedIn</span>
-          </a>
-          <a
-            href={siteConfig.geeksforgeeks}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-4 border border-gray-300 rounded-lg hover:border-primary hover:text-primary transition-colors inline-flex items-center gap-2"
-            aria-label="GeeksforGeeks"
-          >
-            <Globe size={24} />
-            <span>GeeksforGeeks</span>
           </a>
         </motion.div>
       </motion.div>
