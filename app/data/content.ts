@@ -6,8 +6,10 @@
   description: 'Cloud infrastructure, CI/CD modernization, Infrastructure as Code, and automation — making deployments more consistent, repeatable, and secure.',
   availability: 'Currently at Accenture',
   github: 'https://github.com/Sarthak027',
-  linkedin: 'https://linkedin.com/in/sarthak-prasad-parida/',
+  linkedin: 'https://www.linkedin.com/in/sarthak-prasad-parida/',
   geeksforgeeks: 'https://auth.geeksforgeeks.org/user/sarthakparida147/',
+  twitter: 'https://x.com/Sarthaks_twt',
+  medium: 'https://medium.com/@sarthakparida147',
 }
 
 export const technologies = [

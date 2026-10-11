@@ -1,7 +1,7 @@
 ﻿'use client'
 
 import { motion } from 'framer-motion'
-import { Github, ArrowRight } from 'lucide-react'
+import { Github } from 'lucide-react'
 import { siteConfig } from '../data/content'
 
 export default function Hero() {
@@ -47,9 +47,8 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <a href="#experience" className="btn-primary">
-              Explore My Work
-              <ArrowRight size={20} />
+            <a href="/about" className="btn-primary">
+              Curious About the Human Behind the Pipelines? →
             </a>
             <a
               href={siteConfig.github}

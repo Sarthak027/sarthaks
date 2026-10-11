@@ -6,7 +6,6 @@ import ExperiencePreview from './components/experience/ExperiencePreview'
 import SkillsSection from './components/skills/SkillsSection'
 import CertificationsSection from './components/certifications/CertificationsSection'
 import EducationSection from './components/education/EducationSection'
-import About from './components/About'
 import Contact from './components/Contact'
 import Terminal from './components/Terminal'
 import Footer from './components/Footer'
@@ -22,11 +21,9 @@ export default function Home() {
       <SkillsSection />
       <CertificationsSection />
       <EducationSection />
-      <About />
       <Contact />
       <Footer />
       <Terminal />
     </main>
   )
 }
-
